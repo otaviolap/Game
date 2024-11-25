@@ -24,15 +24,9 @@ let blackJackGame = {
   const JOGADOR = blackJackGame['jogador'];
   const COMPUTADOR =  blackJackGame['computador'];
   
-  const audioHIT = new Audio('src/audio/swish.m4a');
-  const audioWIN = new Audio('src/audio/cash.mp3'); 
-  const audioLOSS = new Audio('src/audio/aww.mp3'); 
-  
-  
   document.querySelector('#blackjack-hit-button').addEventListener('click',blackJackHit);
   document.querySelector('#blackjack-stand-button').addEventListener('click',computadorInteligencia);
   document.querySelector('#blackjack-deal-button').addEventListener('click',blackJackDeal)
-  
   
  
   document.addEventListener('keyup',apertaTecla,false);
