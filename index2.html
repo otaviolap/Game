@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blackjack JS</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style2.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+  <link rel="shortcut icon" href="../../01_MENU/MIDIAS/ICONE CSS.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="image2/logo.ico" type="image/x-icon">
+</head>
+
+<body>
+  <div class="container-game">
+      <h2>
+            DreamJack
+      </h2>
+      <h3><span id="blackjack-resultado">Vamos jogar</span></h3>
+
+      <div class="flex-blackjack-linha-1">
+          <div id="jogador-box">
+            <h4>Jogador: <span id="jogador-pontuacao">0</span> </h4>
+          </div>
+
+          <div id="computador-box">
+            <h4>Dealer: <span id="computador-pontuacao">0</span> </h4>
+            
+            
+          </div>
+      </div>
+
+      <div class="flex-blackjack-linha-2">
+        <div>
+            <button class="btn-lg btn-primary mr-2" id="blackjack-hit-button">Pedir</button>
+            <button class="btn-lg btn-warning mr-2" id="blackjack-stand-button">Parar</button>
+            <button class="btn-lg btn-danger" id="blackjack-deal-button">Resetar</button>
+        </div>
+      </div>
+
+
+
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+<footer>
+  <h5 class="rodape"> Jogue com consciencia!</h5>
+</footer>
+
+</html>
